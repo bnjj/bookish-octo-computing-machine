@@ -18,11 +18,12 @@ div
     margin-right: auto;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
-
-
-    
-    
    
+
+
+    -webkit-box-shadow: -3px 14px 27px -10px rgba(255,255,255,0.94);
+    -moz-box-shadow: -3px 14px 27px -10px rgba(255,255,255,0.94);
+    box-shadow: -3px 14px 27px -10px rgba(255,255,255,0.94);
     
    
 }
@@ -30,10 +31,14 @@ div
 button
 {
 border: none;
-padding:4% 15%;
+padding:4% 12%;
 
 
 border-radius:5px;
+
+-webkit-box-shadow: 0px 10px 12px -6px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 10px 12px -6px rgba(0,0,0,0.45);
+box-shadow: 0px 10px 12px -6px rgba(0,0,0,0.45);
 }
 
 #button1
